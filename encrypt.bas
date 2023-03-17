@@ -17,7 +17,7 @@ Open EncryptedFile$ For OutPut As #2
 Print "Encrypting the file, please wait..."
 Print
  
-For Count = 1 To Lof(#1)
+For Count = 1 To Lof(1)
   Print ".";
   RealPassword = Int(Rnd * 126) + 1
   Temp$ = Input$(1,#1)
